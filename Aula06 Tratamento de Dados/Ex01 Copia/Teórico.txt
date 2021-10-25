@@ -1,0 +1,38 @@
+Criando JavaScript no Visual Code
+
+
+Na parte do <Body>
+colocar a TAG <script>
+
+<script>
+        window.alert('Minha primeira mensagem');
+        window.confirm('');
+        window.prompt('');
+    </script>
+
+------------------------------------------------------
+
+Para comentar o seu código JavaScript
+Uma maneira de deixar mais didático o que você está codando
+
+Pode usar // ou /* */
+
+// - É para comentar numa única linha
+
+/* */ - É para comentar em mais de uma linha de código
+
+-----------------------------------------------------------
+
+Para abrir o Node no Visual Studio Code - 
+°Vá em TERMINAL - selecione "Novo Terminal"
+°Dentro do terminal escreva Node
+
+
+Aqui, usamos o VAR de variável e a IDADE
+> var idade = 18
+undefined
+> var salário = 1550.50
+undefined
+> var sexo = "M"
+undefined
+

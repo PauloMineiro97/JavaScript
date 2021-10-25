@@ -1,0 +1,13 @@
+Criar uma div 
+
+<div id="msg">Clique aqui </div>
+
+Dentro da TAG <script>
+
+Criar uma variável 
+
+var d = window.document.querySelector('div#msg')
+d.style.background = 'blue'
+
+o estilo da div 'msg' ficará da cor selecionada na variável 'd'
+

@@ -1,0 +1,49 @@
+
+
+function parimpar(n) {
+    if( n%2 ==0) {
+        return 'Par'
+
+    }else {
+        return 'Impar'
+    }
+
+}
+
+console.log(parimpar(131))
+
+=
+
+Impar
+
+
+-------------------------------------------------
+
+function soma (n1, n2) {
+    return n1 + n2
+}
+
+function subtrai (num1, num2){
+    return num1 -num2
+}
+
+console.log(soma(2, 8))
+console.log(subtrai(5, 2))
+
+=
+
+10
+3
+
+---------------------------------------------------
+
+
+var v = function (x) {
+    return x*2
+
+}
+console.log(v(10))
+    
+=
+
+20

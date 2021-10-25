@@ -1,0 +1,27 @@
+Estrutura de repetição FOR
+ Dentro da estrutura FOR
+
+Há 3 condições
+
+for(inicio;teste;incr) {
+
+}
+
+
+FICA ASSIM:
+
+for (var c=1; c<=10; c++){
+    console.log(c)
+
+}
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1

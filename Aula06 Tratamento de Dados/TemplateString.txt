@@ -1,0 +1,9 @@
+template String - Usar crase (`) para representar.
+
+
+
+`O  aluno  ${aluno} com ${idade} tirou a nota ${nota}`
+
+É uma TemplateString, não é necessário fazer concatenação
+
+

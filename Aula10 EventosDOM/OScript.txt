@@ -1,0 +1,31 @@
+<body>
+    <div id="area" >
+        Interaja
+
+    </div>
+
+    <script>
+
+        var a = window.document.getElementById('area')
+
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+        
+        function clicar() {
+            area.innerText = 'Clicou'
+            area.style.background = 'grey'
+
+        }
+
+        function entrar () {
+            area.innerText = 'Entrou'
+        }
+        function sair () {
+            area.innerText = 'Saiu'
+            area.style.background = 'red'
+
+        }
+
+
+    </script>

@@ -1,0 +1,41 @@
+Condição - ESTRUTURA DE CONTROLE
+
+if (condição) {
+
+
+ }else {
+
+
+  }
+
+
+if > CONDIÇÃO SIMPLES
+
+
+var vel = 55
+if (vel > 60){
+    console.log(`Você ultrapassou a velocidade permitida nesta via. MULTADO!!!`) }
+console.log(`A velocidade do seu carro é ${vel}Km/h`)
+console.log(`Dirija sempre com cuidado!`)
+
+Aqui foi criado uma variável (vel) para indicar a velocidade do veículo
+Na condição IF foi criado um bloco {...} Para se caso houver uma velocidade acima da permitida, aparacer a mensagem de excesso de velocidade + o aviso de multa
+
+
+
+
+
+
+
+
+If and Else > CONDIÇÃO COMPOSTA
+
+
+
+var país ="BRASIL"
+console.log(`Vivendo em  ${país}`)
+if (país == 'Brasil') {
+    console.log( 'Você é Brasileiro')
+} else {
+    console.log ('Você é Estrangeiro')
+}

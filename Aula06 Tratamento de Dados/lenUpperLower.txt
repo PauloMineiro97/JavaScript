@@ -1,0 +1,13 @@
+s.length - Contar o número de letras
+s.toUpperCase() - Todas letras em maiúculas
+s.toLowerCase() - Todas Letras em minúsculas
+
+document.write - É para aparecer na tela o que for escrito
+
+
+
+var nome= window.prompt('Qual o seu nome')
+        document.write(`Seu nome contêm ${nome.length} letras <br>`)
+        document.write(`Seu nome em maiúsculo fica assim:  ${nome.toUpperCase()} <br>`)
+        document.write(`Seu nome em minúsculo fica assim:  ${nome.toLowerCase()}`)
+

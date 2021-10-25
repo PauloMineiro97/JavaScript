@@ -1,0 +1,27 @@
+No JS tem uma expressão chamada switch(expressão) {
+                                             
+
+switch(expressão) {  
+
+          case valor1:
+       
+              break
+
+          case valor2:
+
+              break
+
+
+          case valor3:
+
+              break
+
+           default:
+
+              break
+
+
+ }
+
+
+Que contém um bloco dentro dela

@@ -1,0 +1,22 @@
+Aqui, as variáveis receberam os identificadores n1 e n2
+Foram realizadas as seguintes contas:
+* vezes n1*n2
+/ divisão n1/n2 e n2/n1
+
+
+
+
+> var n1 = 8
+undefined
+> var n2 = 5
+undefined
+> n1
+8
+> n2
+5
+> n1 *n2
+40
+> n1/n2
+1.6
+> n2/n1
+0.625

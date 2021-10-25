@@ -1,0 +1,64 @@
+São exemplos de alguns operadores:
+
+aritméticos
++, -, *, /, % divisão de restos, **
+
+atribuição
+
+
+relacionais
+
+
+lógicos
+
+
+ternário
+
+--------------------------------------------------------------------
+PRECEDÊNCIA 
+ ()
+ **
+ */%
+ +-
+
+Quando aparecer mais de um numa mesma linha, iniciar da esquerda pra direita
+
+
+
+---------------------------------------------------
+AUTO-ATRIBUIÇÃO
+
+n recebeu um valor diferente após cada cálculo
+
+Quando n for receber um número pode usar n+=, n-=, n*=
+
+> var num = 5
+undefined
+> num
+5
+> num +=2
+7
+> num *=2
+14
+
+
+> var n = 3
+undefined
+> n
+3
+> n= n*2
+6
+> n= n-1
+5
+>
+
+INCREMENTO
+
+ var n2 = 10
+undefined
+> n2
+10
+> ++n2
+11
+
+

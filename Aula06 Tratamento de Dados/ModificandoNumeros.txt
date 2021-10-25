@@ -1,0 +1,22 @@
+ToFixed() - Para escrever um número após a '.' com as casas que deseja
+
+ var n1 =152.4
+undefined
+> n1
+152.4
+> n1.toFixed(2)
+Aqui vai aparecer 152.40 - Já que dentro dos () está recebendo o comando para fixar duas casa após o '.'
+
+Para trocar o sinal de '.' para a ','  nos números 152.40 para 152,40
+
+n1.toFixed(2).replace('.',',')
+
+Para colocar no modelo brasileiro de salário:
+
+ n1.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})
+'R$ 152,40'
+
+toLocaleString - Refere a STRING Local(País) ('pt-BR')
+{style:'currency'} - Refere a moeda corrente local
+
+

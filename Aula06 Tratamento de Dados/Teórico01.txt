@@ -1,0 +1,35 @@
+Concatenar é uma palavra chique da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+)
+
+CONVERSÃO DE STRING PARA NÚMERO
+
+Number.parseInt(n) - Para converter uma String em um número inteiro
+Number.parsefloat(n) - Para converter uma String em um número Real
+Para ser lido tanto número inteiro ou real, basta usar apenas: Number()
+
+
+
+var n1 = Number.parseInt(window.prompt('Digite um número'))
+      var n2 = Number.parseInt(window.prompt('Digite um número'))
+      var s = n1+n2
+      window.alert('A soma dos números é: ' +s)
+
+
+
+
+
+var nome= window.prompt('Qual o seu nome?');
+       window.alert  ('É um prazer te conhecer ' + nome + '!!!!!!!' );
+
+(number + number) O sinal de + faz adição
+(String + String) O sinal de + faz concatenação
+
+---------------------------------------------------------------------
+
+CONVERSÃO DE NÚMERO PARA STRING
+
+
+Basta colocar : String(n) ou n.toString()
+----------------------------------------------------------------------
+
+
+                                                    

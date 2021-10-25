@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando o DOM</title>
+    <style>
+        body{
+            background-color: aliceblue;
+
+        }
+        h1 {
+            color: blueviolet;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Estudando o DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>lalalllall</p>
+    <div>Clique em mim</div>
+    <div id="mag"> Olá, JavaScript, eu estou chegando em  </div>
+    
+    <script>
+         var p1 = window.document.getElementsByTagName('p')[1]
+         var corpo = window.document.body
+        
+         var d = window.document.querySelector('div#mag')
+         d.style.background = 'green'
+        
+
+    </script>
+</body>
+</html>

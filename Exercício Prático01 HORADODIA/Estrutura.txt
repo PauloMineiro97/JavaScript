@@ -1,0 +1,7 @@
+Body 
+
+ header
+
+section{ div , div}
+
+footer

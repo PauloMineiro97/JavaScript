@@ -1,0 +1,7 @@
+Estrutura de repetião do {while}
+
+do {
+
+}while(condição)
+
+Faz a repetição da estrura  com teste lógico no final

@@ -1,0 +1,7 @@
+Toda FUNÇÃO tem uma CHAMADA, um PARÂMETRO, uma AÇÃO e RETORNO
+
+PS. nem toda função tem retorno ou parâmetro
+
+Funções: São AÇÕES executadas assim que saõ CHAMADAS ou em decorrência de algum EVENTO
+
+Um FUNÇÃO pode receber parâmetros e retornar um RESULTADO

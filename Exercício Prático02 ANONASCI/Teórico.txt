@@ -1,0 +1,7 @@
+Funções:
+
+
+input type ="radio" name= "radsex" : É para criar um círculo para marcar
+ ° 
+
+var ano = data.getFullYear() - Para pegar 4 dígitos EX: 1997

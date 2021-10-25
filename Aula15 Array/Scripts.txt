@@ -1,0 +1,76 @@
+var num = [5, 8, 2, 4]
+num.push(50)  > Adiciona mais um índice no elemento
+console.log(`${num}`)
+
+
+5,8,2,4,50
+
+
+
+num.push() > Adiciona um elemento no array
+
+num.length > análisa o tamanho
+
+num.sort() > colocar em ordem crescente
+
+num.indexOF(7) > procura se tem o valor dentro do vetor 
+
+
+--------------------------------------------------
+
+
+var num = [5, 8, 2, 4]
+num.push(9)
+num.sort()
+console.log(` o vetor tem ${num.length} posições`)
+console.log(`A ordem crescente é ${num.sort()}`)
+
+
+ o vetor tem 5 posições
+A ordem crescente é 2,4,5,8,9
+
+
+-----------------------------------------------------
+
+var valores =[8, 1, 7 ,5 ,1 ]
+
+for (var valo in valores){
+    console.log(`A posição é ${valores[valo]}`)
+}
+
+
+A posição é 8
+A posição é 1
+A posição é 7
+A posição é 5
+A posição é 1
+
+
+
+
+----------------------------------------------------------
+
+var valores =[8, 1, 7 ,5 ,1 ]
+
+for (var valo=0; valo < valores.length; valo++ ){
+    console.log(`A posição ${valo} tem o valor ${valores[valo]}`)
+}
+
+
+A posição 0 tem o valor 8
+A posição 1 tem o valor 1
+A posição 2 tem o valor 7
+A posição 3 tem o valor 5
+A posição 4 tem o valor 1
+
+-------------------------------------
+
+
+
+
+var valores =[8, 1, 7 ,5 ,1 ]
+  var va = valores.indexOf(5)
+  console.log(`O valor ${valores[3]} está na posição  ${va}`)
+
+
+O valor 5 está na posição  3

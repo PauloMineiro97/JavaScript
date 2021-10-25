@@ -1,0 +1,38 @@
+Tipos de Dados e Variáveis
+
+O sinal de '=' significa que uma variável recebe um valor 
+
+No java Script moderno, além de usar a palavra (var), também podemos usar a palavra (let) - Variáveis
+
+Cada variável recebe um IDENTIFICADOR - Nome, sexo, valores, peso ...
+°Podem começar com letra, $ ou _
+°Não pode começar com números
+°É possível usar letras e números
+°É possível usar acentos e símbolos
+°Não podem conter espaços
+°Não podem conter palavras RESERVADAS - Ex:Alert, Prompt, Comform...
+ºLetras maiúsculas fazem a diferença nas variáveis
+
+--------------------------------------------------------------------
+TypeOff : É USADO PARA RECONHECER O FORMATO DA VARIÁVEL
+
+ n = 'Paulo'
+'Paulo'
+> typeof n
+'string'
+
+typeof n
+'number
+
+
+
+
+Tipos Primitivos
+5, 10, 25, 15.8, -25.2 - number
+
+
+As Strings estarão dentro de ASPAS
+"Google", 'JavaScript', `Maria`, CPF, Telefone - String
+
+True and False - boolean
+

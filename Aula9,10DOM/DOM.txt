@@ -1,0 +1,60 @@
+Document Object Model
+
+Vertente web do JavaScript
+
+
+ÁRVORE GENEALÓGICA DOM 
+
+dentro do Window tem - Location, Document, history
+
+dentro de DOCUMENT tem - o HTML - que tem head and body
+
+dentro de head tem - meta, title ...
+
+
+Como selecionar os elementos:
+
+MARCA
+POR ID
+POR NOME
+POR CLASSE
+POR SELETOR
+
+
+POR MARCA :
+
+getElementsByTagName()
+
+
+------------------------------------------------------
+
+window.document.write(window.document.title)
+
+vai mostar na tela web o nome do título
+Mas pode selecionar vários elementos. Basta mudar o title
+
+------------------------------------------------------------
+
+para replicar um texto escrito no <body>
+
+ <script>
+         var p1 = window.document.getElementsByTagName('p')[0]
+        
+        window.document.write(p1.innerText)
+
+    </script>
+
+* Criar uma div dentro do script
+dentro do document escrever o método de seleção do elemento
+no caso, aqui é por nome > getElementsByTagName
+dentro de ('') colocar o nome do elemento
+e dentro de [] selecionar qual dos elementos descrito na () será mostrado
+No caso de mais elementos com o mesmo nome, a identificação númerica dentro do [], em ordem será o primeiro elemento [0], o segundo [1] ...
+
+
+----------------------------------------------------------------
+
+var corpo = window.document.body
+corpo.style.background = 'lightblue'
+
+

@@ -1,0 +1,56 @@
+Eventos >  É tudo aquilo que possa acontecer com um elemento 
+
+O mais comum é o evento de mouse
+mouseenter(entrar no elemento), mousemove(mover dentro do elemento), mousedown(aperta o botão), mouseup(soltar o botão), click(vários cliques), mouseout(Sair da área do elemento)
+
+Há vários eventos possíveis
+
+::::::::::::::Funções ::::::::::::::
+
+dentro das funções há BLOCOS que são delimitados por { }
+
+function ação(){.............}
+
+Criar uma função(function) de ação dentro da função pode haver parâmentros() e logo vem o bloco {..................}
+
+
+
+
+
+ <script>
+
+        var a = window.document.getElementById('area')
+
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+        
+        function clicar() {
+            area.innerText = 'Clicou'
+            area.style.background = 'grey'
+
+        }
+
+        function entrar () {
+            area.innerText = 'Entrou'
+        }
+        function sair () {
+            area.innerText = 'Saiu'
+            area.style.background = 'red'
+
+        }
+
+::::::::::::::::::::::DESTRINCHANDO::::::::::::::::::: 
+
+dentro do script vc irá criar uma variável da div que estará no HTML
+logo em seguida
+vai criar os eventos do mouse dentro da div 
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+
+Depois criará uma função para cada evento descrito 
+
+ function clicar() {
+            area.innerText = 'Clicou'
+            area.style.background = 'grey'

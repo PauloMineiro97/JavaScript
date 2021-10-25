@@ -1,0 +1,8 @@
+Variáveis Compostas:
+Devem ser capazes de armazenar vários valores em uma mesma estrutura
+
+Varíável composta = array = vetor
+
+O array(vetor) é composto por elements, que contém índice (0,1,2.3,4.5...) e conteúdo/valor ((carro,idade,nome...)
+
+EX: var num = [0, 1, 2, 3 ] - temos um array de elemento numérico, com quatro índices, que terá um valor para cada índice indicando determinado número 

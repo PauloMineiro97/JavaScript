@@ -1,0 +1,27 @@
+Somando valores:
+
+Vai criar uma TAG <input> de type "number" para cada número
+
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+
+Vai criar um botão para clicar em SOMAR 
+
+    <input type="button" value="Somar" onclick="somar()">
+
+
+E no script vai criar a função somar
+
+    <script>
+        function somar() {
+            var tn1 = window.document.getElementById('txtn1')
+            var tn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('res')
+            var n1 =Number(tn1.value)
+            var n2 =Number(tn2.value)
+            var s = n1+n2
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`
+        }
+
+
+    </script>
